@@ -46,4 +46,9 @@
     background: radial-gradient(#ff00cc 50%, #5d00ff 100%);
 }
 
+.tochka{
+    text-decoration: none;
+    font-size: 23px;
+    word-spacing: 5px;
+}
 
