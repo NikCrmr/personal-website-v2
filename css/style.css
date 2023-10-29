@@ -215,3 +215,13 @@ width: 200px;
     color: coral;
     text-shadow: 3px 3px gold;
 }
+
+#ae{
+    top:50000;
+    border: 3px;
+    border-style: dotted;
+    border-color: yellow;
+}
+.flexxx{
+    text-decoration: line-through;
+}
