@@ -1,0 +1,65 @@
+body{
+    background-color: whitesmoke;
+}
+
+.stamm{
+    background: radial-gradient(circle at 100%, brown, orange 90%);
+    /*background-color: brown;*/
+    width: 20px;
+    height: 20px;
+
+}
+
+.grun1,.grun3,.grun5,.grun7{
+    background: radial-gradient(green 50%, lime 90%)
+    /*background-color: greenyellow;*/
+}
+
+.grun2,.grun4,.grun6{
+    background-color: chartreuse;
+}
+
+div{
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.grun7{
+width: 20px;
+height: 10px ;
+}
+
+.grun6{
+width: 60px;
+height: 10px;
+}
+
+.grun5{
+width: 140px;
+height: 10px;
+}
+
+.grun4{
+width: 220px;
+height: 5px;
+}
+
+.grun3{
+    width: 260px;
+    height: 10px;
+}
+
+.grun2{
+    width: 300px;
+    height: 6px;
+}
+
+.grun1{
+    width: 330px;
+    height: 10px;
+}
+
+.space{
+height:100px;
+}
