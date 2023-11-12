@@ -1,227 +1,221 @@
-
-*{
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-
-h1{
-    padding-top: 60px;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    font-size: 50px;
+h1 {
+  padding-top: 60px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
 }
 
-h1:hover{
-    text-shadow: 7px 6px yellow;
+h1:hover {
+  text-shadow: 7px 6px yellow;
 }
 
-div{
-    text-align: center;
+div {
+  text-align: center;
 }
 
-.outbox{
-    margin: 0 auto;
-    margin-top: 30px;
-    height: 400px;
-    width: 45%;
-    top: 160px;
-    left:160px;
-    background-color: rgb(59, 255, 48);
-    
-    /*display: flex;
+.hero {
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 400px;
+  width: 45%;
+  top: 160px;
+  left: 160px;
+  background-color: rgb(59, 255, 48);
+
+  /*display: flex;
    justify-content:space-between;
    flex-direction: column;*/
 }
 
-   .lifebook{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 600;
-font-size: large;
-text-align: center;
-   }
-
-   .lifebook:hover{
-    color: red;
-    font-size: 100px;
-    font-weight: bolder;
-    opacity: 60%;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: -220px;
-   }
-
-.inbox{
-    margin:0;
-    background-color: greenyellow;
-    width: 100%;
-    height: 50px;
-    opacity: 80%;
+.lifebook {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: large;
+  text-align: center;
 }
 
-
-.spacebox{
-    background-color: rgb(255, 252, 80);
-    height: 30px;
-    width: 100%;
-    opacity: 60%;
+.lifebook:hover {
+  color: red;
+  font-size: 100px;
+  font-weight: bolder;
+  opacity: 60%;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: -220px;
 }
 
-
-.nikopic{
-opacity: 80% ;
-width: 200px;
+.inbox {
+  margin: 0;
+  background-color: greenyellow;
+  width: 100%;
+  height: 50px;
+  opacity: 80%;
 }
 
-.spacer0{
-    height: 5%;
-}
-.controls{
-    text-align: center;
-}
-
-.conbut0{
-    padding-top: 30px;
+.spacebox {
+  background-color: rgb(255, 252, 80);
+  height: 30px;
+  width: 100%;
+  opacity: 60%;
 }
 
-
-.conbut{
-    font-size: 25px;
-    background-color: greenyellow;
-    border-radius: 20px;
-    border-color: yellow;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-
+.nikopic {
+  opacity: 80%;
+  width: 200px;
 }
 
-.conbut:hover{
-    background-color: khaki;
+.spacer0 {
+  height: 5%;
 }
-.spacebox:hover{
-    background-color: rgba(187, 210, 42, 0.001);
-    border-radius: 50px;
-    opacity: 50%;
+.controls {
+  text-align: center;
 }
 
-.nikopic:hover{
-    border-radius: 50%;
-    opacity: 100%;
-    width: 300px;
+.contact__button-container {
+  padding-top: 30px;
 }
 
-.spacer2{
-    height: 170px;
+.contact__button {
+  font-size: 25px;
+  background-color: greenyellow;
+  border-radius: 20px;
+  border-color: yellow;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
 }
 
-.Lorem{
-    margin: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height:200px;
-    width: 50%;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.contact__button:hover {
+  background-color: khaki;
+}
+.spacebox:hover {
+  background-color: rgba(187, 210, 42, 0.001);
+  border-radius: 50px;
+  opacity: 50%;
 }
 
-.Lorem h2{
-    color:chocolate;
-    font-style: oblique;
+.nikopic:hover {
+  border-radius: 50%;
+  opacity: 100%;
+  width: 300px;
 }
 
-
-.flexgroup{
-    height: 450px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-content: stretch;
-    justify-content: center;
-    
+.spacer2 {
+  height: 170px;
 }
 
-.flex1{
-    height: 40px;
-    width: 20%;
-    margin-left: 60%;
-    border-radius: 50px;
-    background-color: rgb(0, 255, 51);
-    color: rgb(15, 72, 165);
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.Lorem {
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 200px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.flex2{
-    height: 40px;
-    width: 20%;
-    margin-left: 40%;
-    border-radius: 50px;
-    background-color: rgb(17, 0, 255);
-    color: white;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.Lorem h2 {
+  color: chocolate;
+  font-style: oblique;
 }
 
-.flex3{
-    height: 40px;
-    width: 20%;
-    margin-left: 20%;
-    border-radius: 50px;
-    background-color: rgb(84, 67, 44);
-    color: white;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.flexgroup {
+  height: 450px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: stretch;
+  justify-content: center;
 }
 
-.flex4{
-    height: 40px;
-    width: 20%;
-    margin-left: 5%;
-    border-radius: 50px;
-    background-color: rgb(42, 160, 210);
-    color: white;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.flex1 {
+  height: 40px;
+  width: 20%;
+  margin-left: 60%;
+  border-radius: 50px;
+  background-color: rgb(0, 255, 51);
+  color: rgb(15, 72, 165);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.flex3:hover{
-    background-color: rgb(0, 255, 51);
-    color: rgb(246, 204, 37);
+.flex2 {
+  height: 40px;
+  width: 20%;
+  margin-left: 40%;
+  border-radius: 50px;
+  background-color: rgb(17, 0, 255);
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.flex4:hover{
-    width: 100%;
-    margin-left: 0;
-    border-radius: 0;
+.flex3 {
+  height: 40px;
+  width: 20%;
+  margin-left: 20%;
+  border-radius: 50px;
+  background-color: rgb(84, 67, 44);
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.flex2:hover{
-    background-color:rgb(42, 160, 210);
+.flex4 {
+  height: 40px;
+  width: 20%;
+  margin-left: 5%;
+  border-radius: 50px;
+  background-color: rgb(42, 160, 210);
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.flex1:hover{
-    width: 100%;
+.flex3:hover {
+  background-color: rgb(0, 255, 51);
+  color: rgb(246, 204, 37);
 }
 
-.verylongspacer{
-    height: 100000px;
+.flex4:hover {
+  width: 100%;
+  margin-left: 0;
+  border-radius: 0;
 }
 
-.end-page{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
-    font-style: italic;
-    color: coral;
-    text-shadow: 3px 3px gold;
+.flex2:hover {
+  background-color: rgb(42, 160, 210);
 }
 
-#ae{
-    top:50000;
-    border: 3px;
-    border-style: dotted;
-    border-color: yellow;
+.flex1:hover {
+  width: 100%;
 }
-.flexxx{
-    text-decoration: line-through;
+
+.verylongspacer {
+  height: 100000px;
+}
+
+.end-page {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-style: italic;
+  color: coral;
+  text-shadow: 3px 3px gold;
+}
+
+#ae {
+  top: 50000;
+  border: 3px;
+  border-style: dotted;
+  border-color: yellow;
+}
+.flexxx {
+  text-decoration: line-through;
 }
